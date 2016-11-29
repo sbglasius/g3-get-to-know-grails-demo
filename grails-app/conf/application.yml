@@ -126,3 +126,13 @@ environments:
                 testOnReturn: false
                 jdbcInterceptors: ConnectionState
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
+---
+grails:
+  databinding:
+    dateFormats:
+      - yyyy-MM-dd
+      - MMddyyyy
+      - yyyy/MM/dd
+      - yyyy-MM-dd HH:mm:ss.S
+      - yyyy-MM-dd'T'HH:mm:ss'Z'
+
